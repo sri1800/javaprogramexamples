@@ -11,9 +11,9 @@ public class retail_mart
 		boolean isExit =false; // to exit from the while loop 
 		int i=1;		//to intilaize i value
 		int sum=0;	 // to get final bill sum is intialized
-		while(i)		//infinite while is initiated to avoid limited conditions 
+		while(i!=0)		//infinite while is initiated to avoid limited conditions 
 		{
-
+//@SuppressWarnings("resource")
 			Scanner sc=new Scanner(System.in); // to read user input values
 
 			System.out.println("enter purchasing item code");	// to display msg to user
