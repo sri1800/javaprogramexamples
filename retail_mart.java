@@ -1,6 +1,6 @@
 import java.util.Scanner;  # scanner is imported from util package
 
-public class Sri_Mart1
+public class retail_mart
 {
 	public static void main(String args[])
 	{
