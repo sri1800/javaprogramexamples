@@ -7,10 +7,10 @@ public class retail_mart
 		System.out.println("Hello Welcome to SRI Mart");  //to display data to user
 		System.out.println("Available items"); //to display data to user
 		System.out.println("1.SUGAR-1kg-Rs50"+"\n"+"2.RICE-1kg-Rs1500"+"\n"+"3.OIL-1kg-Rs500"+"\n"+"4.GROUNDNUTS-1kg-Rs100"+"\n"+"5.SALT-1kg-Rs30"+"\n"+"0.EXIT"); // to display data to user
-		
 		boolean isExit =false; // to exit from the while loop 
 		int i=1;		//to intilaize i value
 		int sum=0;	 //to get final bill sum is intialized
+		StringBuilder itemList = new StringBuilder(); // itemList is created as stringbuilder to save purchased items 
 		while(i!=0)		//infinite while is initiated to avoid limited conditions 
 		{
 
@@ -18,7 +18,6 @@ public class retail_mart
 
 			System.out.println("enter purchasing item code");	// to display msg to user
 			int code=sc.nextInt(); // to read user input integer value as code
-			
 			i++;		// for while loop to continue iteration  is implemented
 
 			switch(code)	//switch is used to check code entered by the user and to check different cases
@@ -27,8 +26,9 @@ public class retail_mart
 					int qty=sc.nextInt();		 // to read user input integer value as quantity
 					int price=50;			// price is intialized
 					int sum1 =price*qty;		// Airthmetic operation is performed
-					System.out.println("sugar"+"--"+price+"*"+qty+"="+sum1);
-					sum=sum1;break;}  // sum is displayed to user and case break
+					System.out.println("sugar"+"--"+price+"*"+qty+"="+sum1); 
+					itemList.append("SUGAR:"+ price +"*"+ qty+"kg" + " = Rs " + sum1 + "\n");  // store item details
+					sum=sum+sum1;break;}  // sum is displayed to user and case break
 				        
 
 				case 2: {System.out.println("enter quantity");// to display msg to user
@@ -36,6 +36,7 @@ public class retail_mart
 					int price=1500;			// price is intialized
 					int sum2 =price*qty;		// Airthmetic operation is performed
 					System.out.println("rice"+"--"+price+"*"+qty+"="+sum2);
+					itemList.append("RICE:"+ price +"*"+ qty+"kg" + " = Rs " + sum2 + "\n");  // store item details
 					sum=sum+sum2;break;}	 //sum is displayed to user and case break
 				        
 
@@ -44,6 +45,7 @@ public class retail_mart
 					int price=500;			//price is intialized
 					int sum3 =price*qty;		// Airthmetic operation is performed
 					System.out.println("oil"+"--"+price+"*"+qty+"="+sum3);
+					itemList.append("OIL:"+ price +"*" + qty +"kg"+ " = Rs " + sum3 + "\n");  // store item details
 					sum=sum+sum3;break;}	 // sum is displayed to user and case break
 				        
 
@@ -52,6 +54,7 @@ public class retail_mart
 					int price=100;			// price is intialized
 					int sum4 =price*qty;		// Airthmetic operation is performed
 					System.out.println("groundnuts"+"--"+price+"*"+qty+"="+sum4);
+					itemList.append("GROUNDNUTS :"+ price +"*"+ qty+"kg" + " = Rs " + sum4 + "\n");  // store item details
 					sum=sum+sum4;break;}	 // sum is displayed to user and case break
 				        
 
@@ -60,6 +63,7 @@ public class retail_mart
 					int price=30;			// price is intialized
 					int sum5 =price*qty;		//Airthmetic operation is performed
 					System.out.println("salt"+"--"+price+"*"+qty+"="+sum5);
+					itemList.append("SALT :"+ price +"*"+ qty +"kg"+ " = Rs " + sum5 + "\n");  // store item details
 					sum=sum+sum5;break;}	 // sum is displayed to user and case break
 				        
 
@@ -69,8 +73,9 @@ public class retail_mart
 			if(isExit){		//to break while loop and to give final sum
 					break;
 				  }
-			
 		}
+			 System.out.println("\nItems purchased:");
+			 System.out.println(itemList.toString());  // display the items and their total prices
 			System.out.println("your total amount is   "+sum);	// total bill is displayed to user		
 	}
 }
