@@ -1,21 +1,34 @@
 import java.util.*;
 
-public class twosum {
-    public static String twoSum(int n, int []arr, int target) {
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] + arr[j] == target) return "YES";
+public class twosum 
+{
+    public static int[] twoSum(int n, int []arr, int target) 
+    {
+        int []ans=new int[2];
+        ans[0]=-1;
+        ans[1]=-1;
+        for (int i = 0; i < n; i++) 
+        {
+            for (int j = i + 1; j < n; j++) 
+            {
+                if (arr[i] + arr[j] == target) 
+                {
+                ans[0]=i;
+                ans[1]=j;
+                return ans;
+                }
             }
         }
-        return "NO";
+        return ans;
     }
 
-    public static void main(String args[]) {
+    public static void main(String args[]) 
+    {
         int n = 5;
         int[] arr = {2, 6, 5, 8, 11};
         int target = 14;
-        String ans = twoSum(n, arr, target);
-        System.out.println("This is the answer for variant 1: " + ans);
+        int[] ans = twoSum(n, arr, target);
+        System.out.println("This is the answer for variant 2:[ " + ans[0] +","+ ans[1]+"]");
     }
 
 }
