@@ -2,33 +2,53 @@ import java.util.*;
 
 public class twosum 
 {
-    public static int[] twoSum(int n, int []arr, int target) 
+    public static int[] twoSum(int []a, int target) 
     {
-        int []ans=new int[2];
-        ans[0]=-1;
-        ans[1]=-1;
-        for (int i = 0; i < n; i++) 
+        for (int i = 0; i < a.length; i++) 
         {
-            for (int j = i + 1; j < n; j++) 
+            for (int j = i + 1; j < a.length; j++) 
             {
-                if (arr[i] + arr[j] == target) 
+                if (a[i] + a[j] == target) 
                 {
-                ans[0]=i;
-                ans[1]=j;
-                return ans;
+                    return new int[]{i,j};
                 }
             }
         }
-        return ans;
+        return new int[]{};
     }
 
     public static void main(String args[]) 
     {
-        int n = 5;
-        int[] arr = {2, 6, 5, 8, 11};
-        int target = 14;
-        int[] ans = twoSum(n, arr, target);
-        System.out.println("This is the answer for variant 2::[ " + ans[0] +","+ ans[1]+"]");
-    }
+        
+        Scanner s =new Scanner(System.in);
+        int n;
 
+        /* Iterative loop to ask for user input */
+        do{
+        System.out.println("Enter atleast size of array as > 2");
+        n=s.nextInt();
+        }while(n<2);
+
+        /* Dynamic loading of single dimension array */
+        int a[]=new int[n];
+        System.out.println("enter "+n+ " array values");
+        for(int i=0;i<n;i++)
+        {
+            a[i]= s.nextInt();   
+        }
+
+        /* function call for twosum  */
+        System.out.println("enter target value:  ");
+        int target=s.nextInt();
+        int[] ans = twoSum(a, target);
+        
+        /* function returns array of indices for possible sum and empty array for not possible sum */
+        if (ans.length==0){
+            System.out.println("Target not possible as sum");
+        } 
+        else{
+            System.out.println( "Sum of values in returned indices "+ ans[0] +","+ ans[1]+" will give " + target);
+        }
+        
+    }
 }
