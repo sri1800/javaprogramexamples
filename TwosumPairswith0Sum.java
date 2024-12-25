@@ -14,8 +14,6 @@ class TwosumPairswith0Sum
         }
         System.out.println(Arrays.toString(a));
         int[]b={0,0};
-        //int b[0]=;
-        //int b[1]=0;
         for(int j=0;j<n;j++)
         {
             for(int k=j+1;k<n;k++)
