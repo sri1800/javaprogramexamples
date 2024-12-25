@@ -6,8 +6,6 @@ class kthelementofcombinedarray
         int a[]={5,4,6,8};
         int b[]={1,3,6,9,11};
         int k=5;
-        //int n=a.length+b.length;
-        //int[] result = new int[n];
         int[] result = IntStream.concat(Arrays.stream(a), Arrays.stream(b)).toArray();
         System.out.println(Arrays.toString(result));
         Arrays.sort(result);
