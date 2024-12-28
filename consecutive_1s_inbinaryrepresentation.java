@@ -16,20 +16,21 @@ class consecutive_1s_inbinaryrepresentation
         }
         System.out.println(a);
         char[] array = a.toCharArray();
-        int maxCount = 1;
-        for(int i = 0;i < a.length() - 1; i++)
+        int maxCount = 0;
+        int count = 0;
+        for( int i=0; i< a.length(); i++)
         {
-            for(int j=0;j<a.length() - 1;j++)
+            if(array[i] == '0')
             {
-            int count = 1;
-            while (++j < a.length() && array[i] == array[j]) 
+                count = 0;
+            }
+            else
             {
                 count++;
-            }
-            if (count > maxCount) 
-            {
-                maxCount = count;
-            }
+                if(count > maxCount)
+                {
+                    maxCount = count;
+                }
             }
         }
         System.out.println(maxCount);
