@@ -15,10 +15,12 @@ class EquilibriumPoint
         System.out.println(Arrays.toString(a));
         int sumf=0;
         int suml=0;
-        int temp=0;
+        boolean temp=false;
         int index=0;
         for(int j=1;j<=n-2;j++)
         {
+            sumf=0;
+            suml=0;
             for(int k=0;k<j;k++)
             {
             sumf+=a[k];
@@ -33,10 +35,11 @@ class EquilibriumPoint
            if(sumf==suml)
            {
             index=j;
-            temp=a[j];
+            temp=true;
+            //System.out.println("yes");
            }
         }
-        if (temp!=0)
+        if (temp)
         {
             System.out.println("Equlibrium index point"+index+" is index value is  "+temp);
         }
