@@ -5,7 +5,7 @@ public class retail_mart
 {
 	public static void main(String args[])
 	{
-		System.out.println("Hello Welcome to SRI Mart");  //to display data to user
+		//System.out.println("Hello Welcome to SRI Mart");  //to display data to user
 		System.out.println("Available items"); //to display data to user
 		System.out.println("1.SUGAR-1kg-Rs50"+"\n"+"2.RICE-1kg-Rs1500"+"\n"+"3.OIL-1kg-Rs500"+"\n"+"4.GROUNDNUTS-1kg-Rs100"+"\n"+"5.SALT-1kg-Rs30"+"\n"+"0.EXIT"); // to display data to user
 		boolean isExit =false; // to exit from the while loop 
