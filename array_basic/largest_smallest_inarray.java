@@ -1,4 +1,4 @@
-package array;
+package array_basic;
 
 public class largest_smallest_inarray {
 
