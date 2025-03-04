@@ -2,7 +2,7 @@ package exercise;
 
 import java.util.*;
 
-import strings1.Solution;
+import strings_medium.Solution;
 
 import java.lang.*;
 import java.io.*;

@@ -1,4 +1,4 @@
-package PATTERN;
+package pattern;
 
 import java.util.concurrent.CountDownLatch;
 

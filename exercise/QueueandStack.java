@@ -2,7 +2,7 @@ package exercise;
 import java.io.*;
 import java.util.*;
 
-import strings1.Solution;
+import strings_medium.Solution;
 
 public class QueueandStack 
 {

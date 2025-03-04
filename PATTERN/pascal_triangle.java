@@ -1,4 +1,4 @@
-package PATTERN;
+package pattern;
 
 public class pascal_triangle 
 {

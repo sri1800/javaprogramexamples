@@ -1,4 +1,4 @@
-package PATTERN;
+package pattern;
 
 public class reverse_lefthalf_pyramid {
 

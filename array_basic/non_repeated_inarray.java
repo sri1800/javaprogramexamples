@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-import string.aabbcccdd_convert_to_a2b2c3d2;
+import string_basic.aabbcccdd_convert_to_a2b2c3d2;
 
 public class non_repeated_inarray {
 

@@ -1,4 +1,4 @@
-package PATTERN;
+package pattern;
 
 public class right_pascal_star_triangle {
 
