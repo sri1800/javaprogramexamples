@@ -1,4 +1,4 @@
-package array;
+package array_basic;
 
 public class sum_number_only {
 
