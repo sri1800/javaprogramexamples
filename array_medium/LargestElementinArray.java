@@ -23,5 +23,8 @@ class LargestElementinArray
             }
         }
         System.out.println(l);
+
+    sc.close();
+
     }
 }

@@ -34,5 +34,6 @@ class PeakElement
         }
         System.out.println(x);
         System.out.println(value +"  at index  "+index+"  is peak element");
+        sc.close();
     }
 }

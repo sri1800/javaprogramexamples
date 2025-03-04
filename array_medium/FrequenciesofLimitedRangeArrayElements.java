@@ -31,6 +31,6 @@ class FrequenciesofLimitedRangeArrayElements
             a[i]/=p;
         }
         System.out.println(Arrays.toString(a));
-        
+    sc.close();   
     }
 }
