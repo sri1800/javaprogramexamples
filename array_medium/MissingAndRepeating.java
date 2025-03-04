@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList; 
 import java.util.Stack;
 
-import strings_medium.Solution;
+import array_medium.Solution;
 
 public class MissingAndRepeating
 {
