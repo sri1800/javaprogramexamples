@@ -35,5 +35,7 @@ class arraysearchelement
         {
             System.out.println("index is "+index);
         }
-    }
+    sc.close();
+    s.close();
+    } 
 }

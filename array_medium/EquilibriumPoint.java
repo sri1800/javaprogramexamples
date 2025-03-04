@@ -46,5 +46,7 @@ class EquilibriumPoint
         }
         else
         System.out.println("-1");
+
+    sc.close();
     }
 }

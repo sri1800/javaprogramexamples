@@ -1,11 +1,11 @@
 package array_medium;
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
+//import java.math.*;
+//import java.security.*;
+//import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+//import java.util.concurrent.*;
+//import java.util.regex.*;
 
 
 
@@ -42,6 +42,6 @@ public class sorting
         System.out.println("Array is sorted in "+ count +" swaps.");
          System.out.println("First Element: "+a[0]);
          System.out.println("Last Element: "+a[n-1]);
-
+        sc.close();
     }
 }

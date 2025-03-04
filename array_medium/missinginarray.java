@@ -21,6 +21,6 @@ class missinginarray
         }
         int mn=sum-sumarr;
         System.out.println("missing no is "+mn);
-
+        sc.close();
     }
 }

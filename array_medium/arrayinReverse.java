@@ -20,5 +20,6 @@ class arrayinReverse
         {
             System.out.print(a[i]+ " ");
         }
+        sc.close();
     }
 }

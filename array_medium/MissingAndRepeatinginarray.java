@@ -36,6 +36,6 @@ class MissingAndRepeatinginarray
         }
         int mn=sum-(sumarr-dup);
         System.out.println("missing no is "+mn);
-
+        sc.close();
     }
 }

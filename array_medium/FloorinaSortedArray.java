@@ -35,5 +35,7 @@ class FloorinaSortedArray
         else{
             System.out.println("-1");
         }
+        sc.close();
+        s.close();
     }
 }

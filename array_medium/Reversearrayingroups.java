@@ -47,5 +47,7 @@ class Reversearrayingroups
                 }
             }
         }
+        sc.close();
+        s.close();
     }
 }
