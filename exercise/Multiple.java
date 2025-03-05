@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class Multiple
 {
@@ -13,6 +13,6 @@ class Multiple
             x=n*i;
             System.out.println(n+" x "+i+" = "+x);
         }
-
+        sc.close();
     }
 }

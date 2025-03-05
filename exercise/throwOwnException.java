@@ -1,6 +1,5 @@
-package exercise;
+
 import java.util.*;
-import java.io.*;
 
 class Calculator
 {

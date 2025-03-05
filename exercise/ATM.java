@@ -1,8 +1,9 @@
-package exercise;
+
 import java.util.*;
 public class ATM
 
 {
+@SuppressWarnings("unused")
 public static void main(String args[])
 {
 System.out.println("Welcome to SBI ATM");
@@ -82,11 +83,11 @@ break;}
 }
 if(isExit){
 break;}
+ sc.close();
 }
 
 System.out.println("THANK YOU");
 System.out.println("VISIT AGAIN");
-
 
 }
 }

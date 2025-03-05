@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class Result 
 {
@@ -26,5 +26,6 @@ public class RecursiveMethod
         int result = Result.factorial(n);
 
         System.out.println(String.valueOf(result));
+        sc.close();
     }
 }

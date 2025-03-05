@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 
 class Person 
@@ -72,5 +72,6 @@ class Inheritance
 		Student s = new Student(firstName, lastName, id, testScores);
 		s.printPerson();
 		System.out.println("Grade: " + s.calculate());
+		scan.close();
 	}
 }

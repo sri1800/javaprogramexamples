@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.Scanner;  //scanner is imported from util package
 
 public class retail_mart
@@ -74,9 +74,11 @@ public class retail_mart
 			if(isExit){		//to break while loop and to give final sum
 					break;
 				  }
+				  sc.close();
 		}
 			 System.out.println("\nItems purchased:");
 			 System.out.println(itemList.toString());  // display the items and their total prices
 			System.out.println("your total amount is   "+sum);	// total bill is displayed to user		
+			
 	}
 }

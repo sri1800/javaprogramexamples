@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class BinarySearch
 {
@@ -48,5 +48,7 @@ class BinarySearch
         else{
         System.out.println("-1");
         }
+        sc.close();
+        s.close();
     }
 }

@@ -1,7 +1,6 @@
-package exercise;
+
 import java.util.Arrays;
 import java.util.Scanner;
-import java.lang.Math.*;
 
 class TheInvertingdifference
 {
@@ -43,5 +42,6 @@ class TheInvertingdifference
         Arrays.sort(dif);
         System.out.println(Arrays.toString(dif));
         System.out.println(dif[0]);
+        sc.close();
     }
 }

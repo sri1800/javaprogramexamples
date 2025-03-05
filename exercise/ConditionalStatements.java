@@ -1,4 +1,4 @@
-package exercise;
+
 
 import java.util.*;
 
@@ -25,5 +25,6 @@ public class ConditionalStatements
                 System.out.println("Not Weird");
             }
         }
+        sc.close();
     }
 }

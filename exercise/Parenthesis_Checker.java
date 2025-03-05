@@ -1,6 +1,5 @@
-package exercise;
+
 import java.util.*;
-import java.util.Scanner;
 class Parenthesis_Checker
 {
     public static void main(String args[])
@@ -18,7 +17,7 @@ class Parenthesis_Checker
             else
             System.out.println("false");
         }
-
+         sc.close();
     }
 }
 class sample

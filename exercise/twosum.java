@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 
 public class twosum 
@@ -50,6 +50,6 @@ public class twosum
         else{
             System.out.println( "Sum of values in returned indices "+ ans[0] +","+ ans[1]+" will give " + target);
         }
-        
+        s.close();
     }
 }

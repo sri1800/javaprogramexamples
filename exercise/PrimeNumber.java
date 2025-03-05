@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.Scanner;
 
 class PrimeNumber
@@ -25,6 +25,6 @@ class PrimeNumber
         {
             System.out.println(n+ " is not a Prime number");
         }
-        
+        sc.close();
     }
 }

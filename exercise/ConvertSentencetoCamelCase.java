@@ -1,4 +1,4 @@
-package exercise;
+
 
 import java.util.Scanner; // Import should be at the top of the file
 

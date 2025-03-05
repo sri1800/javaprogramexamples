@@ -1,8 +1,6 @@
-package exercise;
-import java.io.*;
+
 import java.util.*;
 
-import strings_medium.Solution;
 
 public class QueueandStack 
 {
@@ -38,12 +36,12 @@ public class QueueandStack
 
         for (char c : s) {
             p.pushCharacter(c);
-            p.enqueueCharacter(c);
+            p.pushCharacter(c);
         }
 
         boolean isPalindrome = true;
         for (int i = 0; i < s.length/2; i++) {
-            if (p.popCharacter() != p.dequeueCharacter()) {
+            if (p.popCharacter() != p.popCharacter()) {
                 isPalindrome = false;                
                 break;
             }

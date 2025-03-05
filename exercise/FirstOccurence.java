@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 
 class FirstOccurence 
@@ -21,6 +21,7 @@ class FirstOccurence
 
             System.out.println("~");
         }
+        sc.close();
     }
 }
 class Solution 
