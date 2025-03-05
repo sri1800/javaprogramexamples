@@ -7,7 +7,7 @@ public class mergesort
 	{
 		int[]a= {36,18,26,12,5,54};
 		int l=a.length;
-		mergesort(a);
+		mergesort1(a);
 		
 		
 		for(int i=0;i<l;i++)
@@ -17,7 +17,7 @@ public class mergesort
 
 	}
 
-	private static void mergesort(int[] a) 
+	private static void mergesort1(int[] a) 
 	{
 		
 		int l=a.length;
@@ -38,13 +38,13 @@ public class mergesort
 			right[j-mi]=a[j];
 		}
 		
-		mergesort(left);
-		mergesort(right);
-		mergesort(a,left,right);
+		mergesort1(left);
+		mergesort1(right);
+		mergesort1(a,left,right);
 		
 	}
 
-	private static void mergesort(int[] a, int[] left, int[] right) 
+	private static void mergesort1(int[] a, int[] left, int[] right) 
 	{
 		int i=0,j=0,k=0;
 		int ll=left.length;
