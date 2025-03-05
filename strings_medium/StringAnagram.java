@@ -66,6 +66,6 @@ class StringAnagram
         else{
                 System.out.println("no");
             }
-        
+            sc.close();
     }
 } 

@@ -20,5 +20,6 @@ class PalindromeString
         else{
             System.out.println("no");
         }
+        sc.close();
     }
 }

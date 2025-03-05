@@ -16,5 +16,6 @@ class StringReverse
             sb.append(" ");
         }
         System.out.println(sb.toString());
+        sc.close();
     }
 }

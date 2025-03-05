@@ -1,6 +1,5 @@
 package strings_medium;
 
-import java.io.*;
 import java.util.*;
 class Checkforsubsequence
 {
@@ -22,7 +21,8 @@ class Checkforsubsequence
  		
         
 System.out.println("~");
-}
+        }
+        sc.close();
     }
 }
 

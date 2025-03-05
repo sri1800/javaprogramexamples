@@ -1,9 +1,5 @@
 package strings_medium;
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class StringEvenandOdd {
 
@@ -31,6 +27,6 @@ public class StringEvenandOdd {
         }
         System.out.println(E+" "+O);
         }
-        
+        sc.close();
     }
 }

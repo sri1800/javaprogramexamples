@@ -1,5 +1,5 @@
 package strings_medium;
-import java.io.*;
+
 import java.util.*;
 
 class NonRepeatingCharacter
@@ -28,6 +28,7 @@ class NonRepeatingCharacter
                 break;
             } 
         }
+        sc.close();
     }
 }
         
