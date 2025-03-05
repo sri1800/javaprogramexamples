@@ -32,5 +32,6 @@ public class string_palindrome
 		else {
 			System.out.println(A+" Not a palindrome");
 		}
+		sc.close();
 	}
 }

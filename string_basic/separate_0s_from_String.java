@@ -23,7 +23,7 @@ public class separate_0s_from_String {
 		}
 		System.out.println(d);
 		System.out.println(z);
-
+		sc.close();
 	}
 
 }

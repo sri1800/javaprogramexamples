@@ -24,6 +24,7 @@ public class No_ofwords {
         	}
         }
         System.out.println(count);
+        sc.close();
 	}
 
 }

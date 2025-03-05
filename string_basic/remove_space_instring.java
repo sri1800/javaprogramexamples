@@ -18,6 +18,7 @@ public class remove_space_instring {
 			}
 		}
 		System.out.print(sb);
+		sc.close();
 	}
 
 }

@@ -2,7 +2,6 @@ package string_basic;
 
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Set;
 
 public class duplicates_in_string {
 
@@ -25,6 +24,7 @@ public class duplicates_in_string {
 			}
 		}
 		System.out.println(hm);
+		sc.close();
 	}
 
 }

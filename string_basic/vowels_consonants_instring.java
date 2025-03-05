@@ -29,6 +29,8 @@ public class vowels_consonants_instring {
 		}
 		System.out.println("vowels in "+A+" :"+v);
 		System.out.println("consonants in "+A+" :"+c);
+		System.out.println(s);
+		sc.close();
 	}
 
 }

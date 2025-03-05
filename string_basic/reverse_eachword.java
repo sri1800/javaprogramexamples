@@ -22,6 +22,7 @@ public class reverse_eachword {
         	r=r+y+" ";
         }
         System.out.println(r);
+		sc.close();
 	}
 
 }

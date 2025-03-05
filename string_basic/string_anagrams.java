@@ -12,6 +12,7 @@ public class string_anagrams {
 		System.out.println("Enter second String");
 		String B=sc.nextLine();
 		System.out.println(anagrams(A,B));
+		sc.close();
 	}
 		
 		static boolean anagrams(String A,String B)
@@ -49,6 +50,7 @@ public class string_anagrams {
 				}
 				return true;
 			}
+			
 		}
 		
 	}

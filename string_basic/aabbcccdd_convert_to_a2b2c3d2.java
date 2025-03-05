@@ -23,6 +23,7 @@ public class aabbcccdd_convert_to_a2b2c3d2 {
 			}
 		}
 		System.out.println(sb);
+		sc.close();
 	}
 
 }

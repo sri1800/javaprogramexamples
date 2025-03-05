@@ -16,6 +16,7 @@ public class reverse_string {
 			B=B+A.charAt(i);
 		}
 		System.out.println("Reverse of "+A+" is "+B);
+		sc.close();
 	}
 
 }

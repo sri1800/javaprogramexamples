@@ -28,7 +28,7 @@ public class separate_char_int_instring {
 		}
 		System.out.println(c);
 		System.out.println(n);
-
+		sc.close();
 	}
 
 }
