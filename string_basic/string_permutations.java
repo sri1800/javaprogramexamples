@@ -11,6 +11,7 @@ public class string_permutations
 		System.out.println("Enter a String");
 		String A=sc.nextLine();
 		permute(A, "");
+		sc.close();
 	}	
 		static void permute(String A,String prefix)
 		{

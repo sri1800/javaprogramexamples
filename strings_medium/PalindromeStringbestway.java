@@ -1,8 +1,6 @@
 package strings_medium;
 import java.io.*;
 
-import Solution;
-
 class PalindromeStringbestway
 {
     public static void main(String args[]) throws IOException {

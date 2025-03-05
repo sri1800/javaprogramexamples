@@ -23,7 +23,7 @@ public class occurrence_ofeachword {
 			}
 		}
 		System.out.println(hm);
-
+		sc.close();
 	}
 
 }

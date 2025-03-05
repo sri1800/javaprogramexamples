@@ -29,6 +29,7 @@ public class longest_without_repeating {
 			}
 		}
 		System.out.println(ml);
+		sc.close();
 	}
 
 }

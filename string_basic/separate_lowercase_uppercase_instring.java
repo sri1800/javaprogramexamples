@@ -28,7 +28,7 @@ public class separate_lowercase_uppercase_instring {
 		}
 		System.out.println(lc);
 		System.out.println(uc);
-
+		sc.close();
 	}
 
 }

@@ -17,7 +17,7 @@ public class reverse_words {
             sb.append(" ");
         }
         System.out.println(sb.toString());
-
+        sc.close();
 	}
 
 }

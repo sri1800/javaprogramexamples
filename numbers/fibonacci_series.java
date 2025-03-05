@@ -18,7 +18,7 @@ public class fibonacci_series {
 			f=s;
 			s=next;
 		}
-
+		sc.close();
 	}
 
 }

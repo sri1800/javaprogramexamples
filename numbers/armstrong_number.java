@@ -38,6 +38,8 @@ public class armstrong_number {
 		else {
 			System.out.println(num+" is not armstrong number");
 		}
+
+		sc.close();
 	}
 
 }

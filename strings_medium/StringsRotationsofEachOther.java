@@ -28,5 +28,6 @@ class StringsRotationsofEachOther
         {
             System.out.println("false");
         }
+        sc.close();
     }
 }

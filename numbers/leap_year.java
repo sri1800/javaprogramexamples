@@ -21,7 +21,7 @@ public class leap_year {
 		else {
 			System.out.println("no");
 		}
-
+		scr.close();
 	}
 
 }

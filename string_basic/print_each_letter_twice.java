@@ -17,6 +17,7 @@ public class print_each_letter_twice {
 				System.out.print(A.charAt(j));
 			}
 		}
+		sc.close();
 	}
 
 }

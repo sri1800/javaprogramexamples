@@ -18,6 +18,7 @@ public class number_of_digits {
 			count++;
 		}
 		System.out.println("Number of digits in "+num+ " are "+count);
+		sc.close();
 	}
-
+	
 }

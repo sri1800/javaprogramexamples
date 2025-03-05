@@ -16,6 +16,7 @@ public class even_index_instring {
 				System.out.println(A.charAt(i));
 			}
 		}
+		sc.close();
 	}
 
 }

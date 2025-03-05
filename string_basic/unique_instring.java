@@ -1,6 +1,5 @@
 package string_basic;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class unique_instring {
@@ -21,6 +20,7 @@ public class unique_instring {
 				System.out.print(ch+" ");
 			}
 		}
+		sc.close();
 	}
 
 }

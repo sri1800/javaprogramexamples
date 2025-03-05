@@ -1,9 +1,6 @@
 package strings_medium;
 
 import java.io.*;
-import java.lang.*;
-import java.util.*;
-import java.util.stream.*;
 
 class Anagram
  {
@@ -16,9 +13,7 @@ class Anagram
             String s1 = br.readLine(); 
             String s2 = br.readLine(); 
 
-            Solution obj = new Solution();
-
-            if (obj.areAnagrams(s1, s2)) {
+            if (Solution.areAnagrams(s1, s2)) {
                 System.out.println("true");
             } else {
                 System.out.println("false");

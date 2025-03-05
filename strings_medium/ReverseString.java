@@ -13,5 +13,6 @@ class ReverseString
             r=s.charAt(i)+r;
         }
         System.out.println(r);
+        sc.close();
     }
 }

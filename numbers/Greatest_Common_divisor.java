@@ -25,7 +25,7 @@ public class Greatest_Common_divisor {
         	}
         	System.out.println(a);
 		}
-
+		scanner.close();
 	}
 
 }

@@ -1,5 +1,5 @@
 package strings_medium;
-import java.io.*;
+
 import java.util.*;
 
 class LongestCommonPrefixofStrings
@@ -30,6 +30,7 @@ class LongestCommonPrefixofStrings
             i++;
         }
         System.out.println(f.substring(0,i));
+        sc.close();
     }
 }
  

@@ -16,6 +16,7 @@ public class swap_without_third {
 		A=A.substring(B.length());
 		System.out.println(A);
 		System.out.println(B);
+		sc.close();
 	}
 
 }
