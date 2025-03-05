@@ -19,7 +19,7 @@ public class square_root {
 				break;
 			}
 		}
-
+		scr.close();
 	}
 
 }

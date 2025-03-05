@@ -17,7 +17,7 @@ public class swap_without_third {
 		a=a-b;
 		System.out.println("a="+a);
 		System.out.println("b="+b);
-
+		sc.close();
 	}
 
 }

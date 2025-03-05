@@ -21,6 +21,7 @@ public class reverse_number {
 			num=num/10;
 		}
 		System.out.print(rev);
+		sc.close();
 	}
 
 } 

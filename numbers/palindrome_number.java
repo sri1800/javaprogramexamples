@@ -24,7 +24,7 @@ public class palindrome_number {
 		else {
 			System.out.println(temp+" is not a palindrome number");
 		}
-		
+		sc.close();
 
 	}
 
