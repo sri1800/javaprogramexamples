@@ -32,7 +32,7 @@ class Reversearrayingroups
             {
                 if(k-j<=-1)
                 {
-                    for(int m=k+1;m<n;m++)
+                    for(int m=k+1;m<n;)
                     {
                         b[j]=a[m];
                         k++;
