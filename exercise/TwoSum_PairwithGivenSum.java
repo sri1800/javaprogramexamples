@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -38,6 +38,7 @@ class TwoSum_PairwithGivenSum
             {
                 System.out.println("false");
             }
-        
+            sc.close();
+            s.close();
     }
 }

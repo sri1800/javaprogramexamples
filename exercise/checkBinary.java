@@ -1,4 +1,3 @@
-package exercise;
 
 import java.util.*;
 
@@ -21,6 +20,7 @@ class checkBinary
 
             System.out.println("~");
         }
+        sc.close();
     }
 }
 class Solution {

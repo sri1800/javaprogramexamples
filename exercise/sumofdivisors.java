@@ -1,5 +1,4 @@
-package exercise;
-import java.io.*;
+
 import java.util.*;
 
 interface AdvancedArithmetic
@@ -35,5 +34,6 @@ class sumofdivisors
         int sum = myCalculator.divisorSum(n);
         System.out.println("I implemented: " + myCalculator.getClass().getInterfaces()[0].getName() );
         System.out.println(sum);
+        scan.close();
     }
 }

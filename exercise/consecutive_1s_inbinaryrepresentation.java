@@ -1,6 +1,5 @@
-package exercise;
+
 import java.util.Scanner;
-import java.util.Arrays;
 
 class consecutive_1s_inbinaryrepresentation
 {
@@ -35,6 +34,7 @@ class consecutive_1s_inbinaryrepresentation
             }
         }
         System.out.println(maxCount);
+        sc.close();
     }
     
 }

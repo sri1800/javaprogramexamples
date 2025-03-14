@@ -1,6 +1,5 @@
-package exercise;
+
 import java.util.*;
-import java.io.*;
 class Node
 {
     Node left,right;
@@ -57,5 +56,6 @@ class BinarytreeHeight
         }
         int height=getHeight(root);
         System.out.println(height);
+        sc.close();
     }
 }

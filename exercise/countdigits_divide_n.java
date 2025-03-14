@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.Scanner;
 
 class countdigits_divide_n
@@ -20,5 +20,6 @@ class countdigits_divide_n
             n/=10;
         }
         System.out.println(count);
+        sc.close();
     }
 }

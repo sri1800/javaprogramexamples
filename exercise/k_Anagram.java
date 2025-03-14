@@ -1,5 +1,4 @@
-package exercise;
-import java.lang.*;
+
 import java.util.*;
 
 class k_Anagram
@@ -17,6 +16,7 @@ class k_Anagram
             else
                 System.out.println("false");
         }
+        sc.close();
     }
 }
 

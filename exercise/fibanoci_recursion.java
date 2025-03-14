@@ -1,4 +1,4 @@
-package exercise;
+
 class fibanoci_recursion
 {
     public static int fibanocci(int n) 

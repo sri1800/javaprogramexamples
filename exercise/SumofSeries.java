@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class SumofSeries
 {
@@ -9,5 +9,6 @@ class SumofSeries
         int n=sc.nextInt();
         int sum=(n*(n+1)/2);
         System.out.println(sum);
+        sc.close();
     }
 }

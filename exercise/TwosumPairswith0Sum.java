@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class TwosumPairswith0Sum
 {
@@ -35,5 +35,6 @@ class TwosumPairswith0Sum
                 }
             }
         }
+        sc.close();
     }
 }

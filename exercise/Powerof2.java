@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class Powerof2
 {
@@ -21,5 +21,6 @@ class Powerof2
                 }
             }else { System.out.println("no"); break;}
         }
+        sc.close();
         }  
     }

@@ -1,4 +1,4 @@
-package exercise;
+
 import java.util.*;
 class NthFibonacciNumber
 {
@@ -15,5 +15,6 @@ class NthFibonacciNumber
             a[i]=a[i-1]+a[i-2];
         }
         System.out.println(a[n]);
+        sc.close();
     }
 }

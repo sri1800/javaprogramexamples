@@ -1,11 +1,5 @@
-package exercise;
 
 import java.util.*;
-
-import strings_medium.Solution;
-
-import java.lang.*;
-import java.io.*;
 
 class BinaryString
 {
@@ -21,15 +15,15 @@ class BinaryString
     	    s=sc.nextLine();
     	    Solution obj = new Solution();
     	    System.out.println(obj.binarySubstring(n, s));
-    	
-System.out.println("~");
-}
-	}
-}
-
-class Solution
-{
-    public static int binarySubstring(int a, String str)
+                    
+            System.out.println("~");
+            }
+                }
+            }
+            
+            class Solution
+            {
+                public int binarySubstring(int a, String str)
     {
         int count=0;
         for(int i=0;i<a;i++)
