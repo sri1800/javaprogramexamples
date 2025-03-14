@@ -32,7 +32,7 @@ public class QueueandStack
 
         char[] s = input.toCharArray();
 
-        Solution p = new Solution();
+        QueueandStack p = new QueueandStack();
 
         for (char c : s) {
             p.pushCharacter(c);

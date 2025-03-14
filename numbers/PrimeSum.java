@@ -1,4 +1,5 @@
-public class PrimeSum 
+package numbers;
+class PrimeSum 
 {
 
 	public static void main(String[] args) 
@@ -9,7 +10,6 @@ public class PrimeSum
 	static long primesum(int maxNum) 
     {
 		int sum = 0, num;
-		//insert your code here
 		if (maxNum <= 1) 
         {
             return 0;
